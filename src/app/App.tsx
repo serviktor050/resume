@@ -1,7 +1,7 @@
 import React from 'react';
-import {Header, Sidebar} from "../shared/ui";
-import {Route, Routes} from 'react-router-dom'
-import {AboutPage} from "../pages";
+import { Route, Routes } from 'react-router-dom';
+import { Header, Sidebar } from '../shared/ui';
+import { AboutPage } from '../pages';
 
 function App() {
   return (
@@ -11,7 +11,10 @@ function App() {
         <Sidebar />
         <div className="content-layout">
           <Routes>
-            <Route path='/' element={<AboutPage />}/>
+            <Route
+              path="/"
+              element={<AboutPage />}
+            />
           </Routes>
         </div>
       </div>

@@ -1,0 +1,30 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/forbid-prop-types": ["error", { "forbid": [] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts"] }],
+    "react/jsx-no-bind": "off",
+    "object-curly-newline": "off",
+    "no-bitwise": "off",
+    "dot-notation": "off",
+    "camelcase": "off",
+    "no-debugger": "warn",
+    "linebreak-style": "off",
+    "no-restricted-syntax": ["error"],
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "env": {
+    "browser": true
+  }
+}
