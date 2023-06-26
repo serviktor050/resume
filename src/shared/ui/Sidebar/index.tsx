@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-function Sidebar () {
-  return(
+function Sidebar() {
+  return (
     <div>Sidebar</div>
-  )
+  );
 }
 export default Sidebar;
