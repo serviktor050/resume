@@ -1,0 +1,9 @@
+.change-language {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.change-language__single {
+    width: 50px;
+}

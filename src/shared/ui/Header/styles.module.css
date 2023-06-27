@@ -1,7 +1,15 @@
 .header {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 24px;
     height: 76px;
     border: 1px solid #6D8093;
+}
+
+.header-title {
+    color: #5671A6;
+    font-size: 36px;
+    font-weight: 600;
 }
