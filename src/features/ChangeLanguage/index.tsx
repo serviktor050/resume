@@ -1,6 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
+import russianFlag from '../../assets/img/svg/russian-flag.svg';
+import usaFlag from '../../assets/img/svg/usa-flag.svg';
 
 import styles from './styles.module.css';
 
@@ -9,22 +11,35 @@ const cx = classNames.bind(styles);
 function ChangeLanguage() {
   const { i18n } = useTranslation();
 
-  const languages: { ru: string; en: string } = {
-    ru: 'Russian',
-    en: 'English',
-  };
+  const languages: {
+    name: string,
+    flag: string,
+  }[] = [
+    {
+      name: 'ru',
+      flag: russianFlag,
+    },
+    {
+      name: 'en',
+      flag: usaFlag,
+    },
+  ];
 
   return (
     <div className={cx('change-language')}>
-      {Object.keys(languages).map((language) => (
+      {languages.map((language) => (
         <button
           type="submit"
-          key={language}
-          onClick={() => i18n.changeLanguage(language)}
-          disabled={i18n.resolvedLanguage === language}
-          className={cx('change-language__single')}
+          key={language.name}
+          onClick={() => i18n.changeLanguage(language.name)}
+          disabled={i18n.resolvedLanguage === language.name}
+          className={cx('change-language-single')}
         >
-          {language}
+          <img
+            className={cx('change-language-single__icon')}
+            alt="flag"
+            src={language.flag}
+          />
         </button>
       ))}
     </div>
