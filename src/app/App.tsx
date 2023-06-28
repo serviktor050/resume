@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Header, Sidebar } from '../shared/ui';
-import { AboutPage } from '../pages';
+import { AboutPage, EducationPage, ProjectsPage, SkillsPage } from '../pages';
 
 function App() {
   return (
@@ -14,6 +14,18 @@ function App() {
             <Route
               path="/"
               element={<AboutPage />}
+            />
+            <Route
+              path="/education"
+              element={<EducationPage />}
+            />
+            <Route
+              path="/projects"
+              element={<ProjectsPage />}
+            />
+            <Route
+              path="/skills"
+              element={<SkillsPage />}
             />
           </Routes>
         </div>

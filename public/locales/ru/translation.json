@@ -1,3 +1,7 @@
 {
-  "header-title": "Сергей Гагулин"
+  "header-title": "Сергей Гагулин",
+  "navigation-items.about" : "Обо мне",
+  "navigation-items.education" : "Образование",
+  "navigation-items.projects" : "Проекты",
+  "navigation-items.skills" : "Навыки"
 }
