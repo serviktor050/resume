@@ -1,7 +1,9 @@
 {
-  "header-title": "Sergei Gagulin",
+  "header.title": "Sergei Gagulin",
   "navigation-items.about" : "about",
   "navigation-items.education" : "education",
   "navigation-items.projects" : "projects",
-  "navigation-items.skills" : "skills"
+  "navigation-items.skills" : "skills",
+  "sidebar.title": "Sergei Gagulin",
+  "sidebar.profession": "Frontend developer on React"
 }

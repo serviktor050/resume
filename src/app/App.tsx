@@ -1,15 +1,20 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import classNames from 'classnames/bind';
 import { Header, Sidebar } from '../shared/ui';
 import { AboutPage, EducationPage, ProjectsPage, SkillsPage } from '../pages';
+
+import styles from './styles.module.css';
+
+const cx = classNames.bind(styles);
 
 function App() {
   return (
     <>
       <Header />
-      <div className="main-container">
+      <div className={cx('main-container')}>
         <Sidebar />
-        <div className="content-layout">
+        <div className={cx('content-layout')}>
           <Routes>
             <Route
               path="/"

@@ -40,14 +40,17 @@
     box-shadow: 5px 3px 5px mediumaquamarine;
 }
 
-.navigation-item:active .navigation-item__text {
-    color: #FFFFFF;
-}
-
 .navigation-item__text {
-    color: #5671A6;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #5671A6;
+    background-image: linear-gradient(90deg, #5671A6, #B2CAD8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navigation-item:active .navigation-item__text {
+    color: #FFFFFF;
 }

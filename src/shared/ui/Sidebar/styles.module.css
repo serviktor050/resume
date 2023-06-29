@@ -1,0 +1,51 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    min-height: 79.5vh;
+    padding: 46px 50px;
+    border-right: 1px solid #6D8093;
+    gap: 46px;
+}
+
+.sidebar-photo {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #5671A6;
+    border-radius: 130px;
+}
+
+.sidebar-photo__img {
+    height: 100%;
+    width: 100%;
+    border-radius: 130px;
+    box-shadow: 5px 3px 5px #B2CAD8;
+}
+
+.sidebar-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-title__name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #5671A6;
+    background-image: linear-gradient(90deg, #5671A6, #B2CAD8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar-title__profession {
+    font-size: 16px;
+    font-weight: 600;
+    color: #383838;
+}
+
+.sidebar-description {
+
+}
