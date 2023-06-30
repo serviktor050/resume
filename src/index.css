@@ -5,8 +5,33 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #071A71;
 }
 
 code {
   font-family: 'Montserrat', sans-serif;
 }
+
+.primary-0 { color: #1531ae }		/* Основной Цвет */
+.primary-1 { color: #2d3c82 }
+.primary-2 { color: #071a71 }
+.primary-3 { color: #4962d6 }
+.primary-4 { color: #6f81d6 }
+
+.secondary-a-0 { color: #01939a }	/* Вторичный Цвет A */
+.secondary-a-1 { color: #1d7074 }
+.secondary-a-2 { color: #006064 }
+.secondary-a-3 { color: #34c6cd }
+.secondary-a-4 { color: #5dc8cd }
+
+.secondary-b-0 { color: #ff7600 }	/* Вторичный Цвет B */
+.secondary-b-1 { color: #bf7230 }
+.secondary-b-2 { color: #a64d00 }
+.secondary-b-3 { color: #ff9840 }
+.secondary-b-4 { color: #ffb473 }
+
+.complement-0 { color: #ffb400 }	/* Дополнительный Цвет */
+.complement-1 { color: #bf9530 }
+.complement-2 { color: #a67500 }
+.complement-3 { color: #ffc740 }
+.complement-4 { color: #ffd673 }

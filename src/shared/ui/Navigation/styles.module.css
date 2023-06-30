@@ -19,13 +19,12 @@
 
 .navigation-item:hover {
     border-radius: 5px;
-    box-shadow: 5px 3px 5px mediumaquamarine;
+    box-shadow: 7px 5px 5px #FF9840;
 }
 
 .navigation-item:active {
     border-radius: 5px;
-    background: mediumaquamarine;
-    box-shadow: 5px 3px 5px mediumaquamarine;
+    box-shadow: 7px 5px 5px #FF9840;
 }
 
 .navigation-item__active {
@@ -37,7 +36,7 @@
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 5px 3px 5px mediumaquamarine;
+    box-shadow: 7px 5px 5px #FF9840;
 }
 
 .navigation-item__text {
@@ -45,12 +44,9 @@
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #5671A6;
-    background-image: linear-gradient(90deg, #5671A6, #B2CAD8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
 }
 
 .navigation-item:active .navigation-item__text {
-    color: #FFFFFF;
+    color: #FF9840;
 }

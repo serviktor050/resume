@@ -5,14 +5,15 @@
     width: 15%;
     min-height: 79.5vh;
     padding: 46px 50px;
-    border-right: 1px solid #6D8093;
+    background: linear-gradient(90deg, #2D3C82, #01939A);
+    border-radius: 15px;
     gap: 46px;
 }
 
 .sidebar-photo {
     width: 250px;
     height: 250px;
-    border: 4px solid #5671A6;
+    border: 1px solid #34C6CD;
     border-radius: 130px;
 }
 
@@ -20,7 +21,6 @@
     height: 100%;
     width: 100%;
     border-radius: 130px;
-    box-shadow: 5px 3px 5px #B2CAD8;
 }
 
 .sidebar-title {
@@ -34,18 +34,35 @@
 .sidebar-title__name {
     font-size: 24px;
     font-weight: 600;
-    color: #5671A6;
-    background-image: linear-gradient(90deg, #5671A6, #B2CAD8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
 }
 
 .sidebar-title__profession {
     font-size: 16px;
     font-weight: 600;
-    color: #383838;
+    color: #FF9840;
+    text-align: center;
 }
 
-.sidebar-description {
+.sidebar-send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    padding: 15px 15px;
+    border-radius: 50px;
+    background: #FF9840;
+    margin-top: auto;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.sidebar-send-btn:hover {
+    background: #FF7600;
+}
+
+.sidebar-send-btn:active {
+    background: #FFB473;
 }

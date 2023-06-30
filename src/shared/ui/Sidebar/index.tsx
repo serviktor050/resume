@@ -29,9 +29,12 @@ function Sidebar() {
       <div className={cx('sidebar-links')}>
         Ссылки
       </div>
-      <div className={cx('sidebar-send-btn')}>
-        Кнопка Написать
-      </div>
+      <button
+        type="submit"
+        className={cx('sidebar-send-btn')}
+      >
+        {t('sidebar.send-email.btn')}
+      </button>
     </div>
   );
 }

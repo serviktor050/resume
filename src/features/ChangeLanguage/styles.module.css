@@ -18,11 +18,11 @@
 }
 
 .change-language-single:hover {
-    box-shadow: 5px 3px 5px mediumaquamarine;
+    border: 2px solid #FF9840;
 }
 
 .change-language-single:active {
-    background: mediumaquamarine;
+    background: #FF9840;
 }
 
 .change-language-single__icon {
