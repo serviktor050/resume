@@ -43,6 +43,38 @@
     color: #FF9840;
     text-align: center;
 }
+.sidebar-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    width: 70%;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.sidebar-links__icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 30px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sidebar-links__icon:hover {
+    border: 2px solid #FF9840;
+}
+
+.sidebar-links__icon:active {
+    background: #FF9840;
+}
 
 .sidebar-send-btn {
     display: flex;
