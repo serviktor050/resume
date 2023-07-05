@@ -1,10 +1,8 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
+import { SOCIAL_LINKS } from '../../../shared/config/constants';
 import mainImage from '../../../assets/img/png/main-image.png';
-import github from '../../../assets/img/svg/github.svg';
-import telegram from '../../../assets/img/svg/telegram.svg';
-import facebook from '../../../assets/img/svg/facebook.svg';
 
 import styles from './styles.module.css';
 
@@ -30,30 +28,16 @@ function Sidebar() {
         Описание
       </div>
       <div className={cx('sidebar-links')}>
-        <button type="button" className={cx('sidebar-links__icon')}>
-          <a href="https://github.com/serviktor050" target="_blank" rel="noreferrer">
-            <img
-              alt="github"
-              src={github}
-            />
-          </a>
-        </button>
-        <button type="button" className={cx('sidebar-links__icon')}>
-          <a href="https://t.me/ser_viktor" target="_blank" rel="noreferrer">
-            <img
-              alt="telegram"
-              src={telegram}
-            />
-          </a>
-        </button>
-        <button type="button" className={cx('sidebar-links__icon')}>
-          <a href="https://www.facebook.com/profile.php?id=100001830878512" target="_blank" rel="noreferrer">
-            <img
-              alt="facebook"
-              src={facebook}
-            />
-          </a>
-        </button>
+        {SOCIAL_LINKS.map(({ href, src, alt }) => (
+          <button type="button" className={cx('sidebar-links__icon')}>
+            <a href={href} target="_blank" rel="noreferrer">
+              <img
+                alt={alt}
+                src={src}
+              />
+            </a>
+          </button>
+        ))}
       </div>
       <button
         type="submit"
