@@ -7,5 +7,7 @@
   "sidebar.title": "Sergei Gagulin",
   "sidebar.profession": "Frontend developer on React",
   "sidebar.description": "Development and creation of flexible, scalable and intuitive user interfaces based on the React",
-  "sidebar.send-email.btn": "Send email"
+  "sidebar.send-email.btn": "Send email",
+  "about-page.title": "About",
+  "about-page.description": "Здравствуйте.\n\nЯ разработчик пользовательских интерфейсов с помощью библиотеки React.\n\nОпыт коммерческой разработки более 2 лет. В качестве фреймворка, определяющего рабочие процессы, использую SCRUM (методология Agile).\n\nУспешный менторинг стажеров и junior-разработчиков. Введение новых членов команды в проект, осуществление мониторинга процессов разработки, соблюдения принципов SCRUM."
 }
