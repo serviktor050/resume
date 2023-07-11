@@ -25,7 +25,7 @@ function Sidebar() {
         </div>
       </div>
       <div className={cx('sidebar-description')}>
-        Описание
+        {t('sidebar.description')}
       </div>
       <div className={cx('sidebar-links')}>
         {SOCIAL_LINKS.map(({ href, src, alt }) => (

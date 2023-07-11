@@ -6,5 +6,6 @@
   "navigation-items.skills" : "Навыки",
   "sidebar.title": "Сергей Гагулин",
   "sidebar.profession": "Фронтенд разработчик на React",
+  "sidebar.description": "Разработка и создание гибких, масштабируемых и интуитивно понятных пользовательских интерфейсов на библиотеке React",
   "sidebar.send-email.btn": "Отправить email"
 }

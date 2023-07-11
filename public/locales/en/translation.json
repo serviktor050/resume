@@ -6,5 +6,6 @@
   "navigation-items.skills" : "skills",
   "sidebar.title": "Sergei Gagulin",
   "sidebar.profession": "Frontend developer on React",
+  "sidebar.description": "Development and creation of flexible, scalable and intuitive user interfaces based on the React",
   "sidebar.send-email.btn": "Send email"
 }

@@ -43,6 +43,17 @@
     color: #FF9840;
     text-align: center;
 }
+
+.sidebar-description {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
 .sidebar-links {
     display: flex;
     flex-direction: row;
