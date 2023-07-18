@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
+import Technologies from './ui/Technologies';
 
 import styles from './styles.module.css';
 
@@ -17,7 +18,7 @@ function AboutPage() {
           <div className={cx('description__item')}>{t('about-page.description-2')}</div>
           <div className={cx('description__item')}>{t('about-page.description-3')}</div>
         </div>
-
+        <Technologies />
       </div>
     </div>
   );

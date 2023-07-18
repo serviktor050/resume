@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import { Header, Sidebar } from '../shared/ui';
-import { AboutPage, EducationPage, ProjectsPage, SkillsPage } from '../pages';
+import { AboutPage, EducationPage, ProjectsPage } from '../pages';
 
 import styles from './styles.module.css';
 
@@ -27,10 +27,6 @@ function App() {
             <Route
               path="/projects"
               element={<ProjectsPage />}
-            />
-            <Route
-              path="/skills"
-              element={<SkillsPage />}
             />
           </Routes>
         </div>

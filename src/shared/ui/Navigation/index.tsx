@@ -26,10 +26,6 @@ function Navigation() {
       href: 'projects',
       title: t('navigation-items.projects'),
     },
-    {
-      href: 'skills',
-      title: t('navigation-items.skills'),
-    },
   ];
 
   return (
