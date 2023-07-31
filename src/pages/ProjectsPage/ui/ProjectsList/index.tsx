@@ -33,6 +33,7 @@ function ProjectsList() {
               </div>
               {useIsRussainLang() ? project.responsibility.ru : project.responsibility.en}
             </div>
+            {project.href && (
             <div className={cx('project-item-href')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.link')}
@@ -41,6 +42,7 @@ function ProjectsList() {
                 {project.href}
               </a>
             </div>
+            )}
             <div className={cx('project-item-stack')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.stack')}

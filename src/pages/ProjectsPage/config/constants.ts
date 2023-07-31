@@ -1,4 +1,7 @@
 import antiageClinic from '../../../assets/img/png/antiage-clinic.png';
+import unknowCover from '../../../assets/img/png/unknow-cover.png';
+import kler from '../../../assets/img/png/kler.png';
+import travelClass from '../../../assets/img/png/travel-class.png';
 
 export const PROJECTS: {
   name: string,
@@ -46,10 +49,117 @@ export const PROJECTS: {
       'HTML react parser',
       'Prop Types',
       'Eslint',
+      'Jest',
     ],
     period: {
       ru: 'с 12.2021',
       en: 'from 2021.12',
+    },
+  },
+  {
+    name: 'StreamPlatform',
+    description: {
+      ru: 'StreamPlatform – это внутренний проект компании FlyCode, позволяющий пользователю проводить вебинары и видеотрансляции для своих подписчиков, а так же самому просмативать стримы других пользователей и подписываться на их обновления.',
+      en: 'StreamPlatform is an internal project of FlyCode company that allows the user to conduct webinars and video broadcasts for his subscribers, as well as to watch other users\' streams and subscribe to their updates.',
+    },
+    responsibility: {
+      ru: 'Разработка пользовательского интерфейса приложения. Разработка CRUD функционала подписок и подписчиков, организации групповых чатов и стримов. Участие в разработке личного кабинета пользователя.',
+      en: 'Development of the user interface of the application. Development of CRUD functionality for subscriptions and subscribers, organization of group chats and streams. Participation in the development of the user\'s personal account.',
+    },
+    href: '',
+    src: unknowCover,
+    alt: 'Stream Platform',
+    stack: [
+      'React 17.2.0',
+      'React router dom',
+      'React i18next',
+      'React Query',
+      'Next',
+      'TypeScript',
+      'Antd',
+      'Axios',
+      'Eslint',
+      'Jest',
+    ],
+    period: {
+      ru: 'с 08.2021 по 12.2021',
+      en: 'from 2021.08 to 2021.12',
+    },
+  },
+  {
+    name: 'Kler',
+    description: {
+      ru: 'Kler – это сайт магазина современной и элегантной мебели для гостиных, спален и столовых комнат.',
+      en: 'Kler is a website of a store of modern and elegant furniture for living rooms, bedrooms and dining rooms.',
+    },
+    responsibility: {
+      ru: 'Работа в тесном контакте с PHP-разработчиком. Правка дизайна существующих страниц, реализаций новых пожеланий клиента на сайте.',
+      en: 'Working closely with a PHP developer. Edit the design of existing pages, implementations of new customer wishes on the site.',
+    },
+    href: 'https://www.kler.eu/en',
+    src: kler,
+    alt: 'Kler',
+    stack: [
+      'PHP',
+      'HTML',
+      'CSS',
+      'Jquery',
+    ],
+    period: {
+      ru: 'с 06.2021 по 12.2021',
+      en: 'from 2021.06 to 2021.12',
+    },
+  },
+  {
+    name: 'Travel Class',
+    description: {
+      ru: 'Travel Class - это международная платформа, предназначенная для преподавателей, студентов и их родителей, чтобы упростить планирование и бронирование языковых и учебных курсов.',
+      en: 'Travel Class is an international platform designed for teachers, students and their parents to simplify the planning and booking of language and study courses.',
+    },
+    responsibility: {
+      ru: 'Работа в тесном контакте с PHP-разработчиком. Правка дизайна существующих страниц, реализаций новых пожеланий клиента на сайте.',
+      en: 'Working closely with a PHP developer. Edit the design of existing pages, implementations of new customer wishes on the site.',
+    },
+    href: 'https://www.travelclass.org/',
+    src: travelClass,
+    alt: 'Travel Class',
+    stack: [
+      'PHP',
+      'HTML',
+      'CSS',
+      'Jquery',
+    ],
+    period: {
+      ru: 'с 06.2021 по 12.2021',
+      en: 'from 2021.06 to 2021.12',
+    },
+  },
+  {
+    name: 'Рестомаркет Студенец / Кофейня Habit',
+    description: {
+      ru: 'Рестомаркет Студенец / Кофейня Habit - это внутренний проект компании FlyCode, направленный на создание сайта меню для кафе и кофеен, с возможностью QR-оплаты заказа.',
+      en: 'Studenets Restomarket / Habit Coffee Shop is an internal project of FlyCode aimed at creating a menu site for cafes and coffee shops, with the possibility of QR-payment of the order.',
+    },
+    responsibility: {
+      ru: '.',
+      en: '.',
+    },
+    href: '',
+    src: unknowCover,
+    alt: 'Studenets Restomarket / Habit Coffee Shop',
+    stack: [
+      'React 17.0.2',
+      'React router dom',
+      'Redux',
+      'Redux observable',
+      'Redux thunk',
+      'RxJS',
+      'Material UI',
+      'Axios',
+    ],
+    period: {
+      ru: 'с 06.2021 по 12.2021',
+      en: 'from 2021.06 to 2021.12',
     },
   },
 ];
