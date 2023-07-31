@@ -1,6 +1,7 @@
 import github from '../../assets/img/svg/github.svg';
 import telegram from '../../assets/img/svg/telegram.svg';
 import facebook from '../../assets/img/svg/facebook.svg';
+import antiageClinic from '../../assets/img/png/antiage-clinic.png';
 
 export const SOCIAL_LINKS: {
   href: string,
@@ -71,5 +72,37 @@ export const TECHNOLOGIES: {
   {
     name: 'ООП',
     rate: 'Junior',
+  },
+];
+
+export const PROJECTS: {
+  name: string,
+  description: string,
+  responsibility: string,
+  href: string,
+  src: string,
+  alt: string,
+  stack: string[],
+  period: string,
+}[] = [
+  {
+    name: 'AntiAge Clinic',
+    description: 'AntiAge Clinic – это медицинская онлайн-платформа для клиник и врачей частной правктики, позволяющая работать как со своей базой пациентов, так и получать новых клиентов онлайн. ',
+    responsibility: 'Разработка пользовательского интерфейса медицинской информационной системы. Предоставление врачу возможности проведения приема пациентов. Работаю на данный момент на этом проекте',
+    href: 'https://clinic.antiage-expert.com/schedule',
+    src: antiageClinic,
+    alt: 'AntiAge Clinic',
+    stack: [
+      'React',
+      'Redux',
+      'React Query',
+      'React',
+      'Redux',
+      'React Query',
+      'React',
+      'Redux',
+      'React Query',
+    ],
+    period: 'с 12.2021',
   },
 ];
