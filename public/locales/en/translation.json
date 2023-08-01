@@ -18,5 +18,13 @@
   "projects-page.project-item.sub-title.responsibility": "Responsibility area",
   "projects-page.project-item.sub-title.link": "Link to the project",
   "projects-page.project-item.sub-title.stack": "Stack",
-  "projects-page.project-item.sub-title.period": "Period of operation"
+  "projects-page.project-item.sub-title.period": "Period of operation",
+  "education-page.title": "Education",
+  "education-page.sub-title.higher-education": "Higher education",
+  "education-page.sub-title.additional-education": "Additional education",
+  "education-page.sub-title.certificates": "Certificates",
+  "education-page.card.sub-title.description": "Description",
+  "education-page.card.sub-title.faculty": "Faculty",
+  "education-page.card.sub-title.period": "Period",
+  "education-page.card.sub-title.speciality": "speciality"
 }

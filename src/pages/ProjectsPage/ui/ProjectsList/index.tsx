@@ -34,14 +34,14 @@ function ProjectsList() {
               {useIsRussianLang() ? project.responsibility.ru : project.responsibility.en}
             </div>
             {project.href && (
-            <div className={cx('project-item-href')}>
-              <div className={cx('project-item-sub-title')}>
-                {t('projects-page.project-item.sub-title.link')}
+              <div className={cx('project-item-href')}>
+                <div className={cx('project-item-sub-title')}>
+                  {t('projects-page.project-item.sub-title.link')}
+                </div>
+                <a href={project.href} target="_blank" rel="noreferrer">
+                  {project.href}
+                </a>
               </div>
-              <a href={project.href} target="_blank" rel="noreferrer">
-                {project.href}
-              </a>
-            </div>
             )}
             <div className={cx('project-item-stack')}>
               <div className={cx('project-item-sub-title')}>

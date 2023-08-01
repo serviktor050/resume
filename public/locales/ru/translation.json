@@ -18,5 +18,13 @@
   "projects-page.project-item.sub-title.responsibility": "Зона ответственности",
   "projects-page.project-item.sub-title.link": "Ссылка на проект",
   "projects-page.project-item.sub-title.stack": "Стек",
-  "projects-page.project-item.sub-title.period": "Период работы"
+  "projects-page.project-item.sub-title.period": "Период работы",
+  "education-page.title": "Образование",
+  "education-page.sub-title.higher-education": "Высшее образование",
+  "education-page.sub-title.additional-education": "Дополнительное образование",
+  "education-page.sub-title.certificates": "Сертификаты",
+  "education-page.card.sub-title.description": "Описание",
+  "education-page.card.sub-title.faculty": "Факультет",
+  "education-page.card.sub-title.period": "Период",
+  "education-page.card.sub-title.speciality": "Специальность"
 }
