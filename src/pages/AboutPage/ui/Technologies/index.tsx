@@ -14,7 +14,7 @@ function Technologies() {
       <div className={cx('title')}>{t('about-page.technologies.title')}</div>
       <div className={cx('wrapper')}>
         {TECHNOLOGIES.map((technology) => (
-          <div className={cx('technology-item')}>
+          <div className={cx('technology-item')} key={technology.id}>
             <div className={cx('technology-item__name')}>
               <span>{technology.name}</span>
               <span>{technology.rate}</span>

@@ -14,7 +14,7 @@ function ProjectsList() {
     <div className={cx('container')}>
       <div className={cx('wrapper')}>
         {PROJECTS.map((project) => (
-          <div className={cx('project-item')}>
+          <div className={cx('project-item')} key={project.id}>
             <div className={cx('project-item-name')}>
               {project.name}
             </div>
@@ -49,7 +49,9 @@ function ProjectsList() {
               </div>
               <div className={cx('project-item-stack-list')}>
                 {project.stack.map((item) => (
-                  <div className={cx('project-item-stack-list__item')}>{item}</div>
+                  <div className={cx('project-item-stack-list__item')} key={item.id}>
+                    {item.name}
+                  </div>
                 ))}
               </div>
             </div>
