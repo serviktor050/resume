@@ -33,12 +33,13 @@
     border-radius: 15px;
     padding: 10px 20px;
     color: #071A71;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
     box-shadow: 7px 5px 5px #34c6cd;
 }
 
 .description__item__bold {
+    font-size: 24px;
     font-weight: 600;
     box-shadow: none;
  }

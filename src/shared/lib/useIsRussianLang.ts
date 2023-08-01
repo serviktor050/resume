@@ -1,3 +1,3 @@
-const useIsRussainLang = () => localStorage.getItem('i18nextLng') === 'ru';
+const useIsRussianLang = () => localStorage.getItem('i18nextLng') === 'ru';
 
-export default useIsRussainLang;
+export default useIsRussianLang;

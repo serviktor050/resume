@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
 import { PROJECTS } from '../../config/constants';
-import useIsRussainLang from '../../../../shared/lib/useIsRussianLang';
+import useIsRussianLang from '../../../../shared/lib/useIsRussianLang';
 
 import styles from './styles.module.css';
 
@@ -25,13 +25,13 @@ function ProjectsList() {
               <div className={cx('project-item-photo')}>
                 <img className={cx('project-item-photo__img')} alt={project.alt} src={project.src} />
               </div>
-              {useIsRussainLang() ? project.description.ru : project.description.en}
+              {useIsRussianLang() ? project.description.ru : project.description.en}
             </div>
             <div className={cx('project-item-what-did-i-do')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.responsibility')}
               </div>
-              {useIsRussainLang() ? project.responsibility.ru : project.responsibility.en}
+              {useIsRussianLang() ? project.responsibility.ru : project.responsibility.en}
             </div>
             {project.href && (
             <div className={cx('project-item-href')}>
@@ -57,7 +57,7 @@ function ProjectsList() {
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.period')}
               </div>
-              {useIsRussainLang() ? project.period.ru : project.period.en}
+              {useIsRussianLang() ? project.period.ru : project.period.en}
             </div>
           </div>
         ))}

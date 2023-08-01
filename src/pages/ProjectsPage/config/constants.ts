@@ -141,8 +141,8 @@ export const PROJECTS: {
       en: 'Studenets Restomarket / Habit Coffee Shop is an internal project of FlyCode aimed at creating a menu site for cafes and coffee shops, with the possibility of QR-payment of the order.',
     },
     responsibility: {
-      ru: '.',
-      en: '.',
+      ru: 'Разработка пользовательского интерфейса приложения. Настройка роутинга. Разработка CRUD функционала оформления заказа.',
+      en: 'Development of the user interface of the application. Setting up routing. Development of CRUD functionality for ordering.',
     },
     href: '',
     src: unknowCover,
