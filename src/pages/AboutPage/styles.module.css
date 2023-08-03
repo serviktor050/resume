@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 100%;
     height: 100%;
     border-radius: 15px;
     background: #FFFFFF;
@@ -38,8 +37,11 @@
     box-shadow: 7px 5px 5px #34c6cd;
 }
 
-.description__item__bold {
+.sub-title {
     font-size: 24px;
     font-weight: 600;
     box-shadow: none;
+    width: 100%;
+    padding: 10px 0px;
+    color: #071A71;
  }

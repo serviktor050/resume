@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
-import { SOCIAL_LINKS } from '../../../shared/config/constants';
+import { SOCIAL_LINKS } from '../../config/constants';
 import mainImage from '../../../assets/img/png/main-image.png';
 
 import styles from './styles.module.css';
@@ -28,8 +28,8 @@ function Sidebar() {
         {t('sidebar.description')}
       </div>
       <div className={cx('sidebar-links')}>
-        {SOCIAL_LINKS.map(({ href, src, alt }) => (
-          <button type="button" className={cx('sidebar-links__icon')}>
+        {SOCIAL_LINKS.map(({ id, href, src, alt }) => (
+          <button type="button" className={cx('sidebar-links__icon')} key={id}>
             <a href={href} target="_blank" rel="noreferrer">
               <img
                 alt={alt}

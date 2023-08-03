@@ -7,10 +7,9 @@
 
 .content-layout {
     display: flex;
-    justify-content: center;
     width: 100%;
     min-height: 79vh;
     border-radius: 15px;
     background: linear-gradient(-90deg, #2D3C82, #01939A);
-    padding: 25px 50px;
+    padding: 25px 30px 25px 50px;
 }

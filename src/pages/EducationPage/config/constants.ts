@@ -1,5 +1,12 @@
 import tstu from '../../../assets/img/png/tstu.png';
 import netology from '../../../assets/img/png/netology.png';
+import git from '../../../assets/img/png/git.png';
+import adaptive from '../../../assets/img/png/adaptive.png';
+import baseOfProgramming from '../../../assets/img/png/base-of-programming.png';
+import basedJs from '../../../assets/img/png/based-js.png';
+import basedJsInBrowser from '../../../assets/img/png/based-js-in-browser.png';
+import advancedJs from '../../../assets/img/png/advanced-js.png';
+import react from '../../../assets/img/png/react.png';
 
 export interface IEducation {
   src: string,
@@ -75,3 +82,47 @@ export const ADDITIONAL_EDUCATION: IEducation = {
     en: 'Profession Frontend-developer',
   },
 };
+
+type ISlider = {
+  id: number,
+  src: string,
+  alt: string,
+}[];
+
+export const SLIDER: ISlider = [
+  {
+    id: 1,
+    src: git,
+    alt: 'git',
+  },
+  {
+    id: 2,
+    src: adaptive,
+    alt: 'adaptive',
+  },
+  {
+    id: 3,
+    src: baseOfProgramming,
+    alt: 'baseOfProgramming',
+  },
+  {
+    id: 4,
+    src: basedJs,
+    alt: 'basedJs',
+  },
+  {
+    id: 5,
+    src: basedJsInBrowser,
+    alt: 'basedJsInBrowser',
+  },
+  {
+    id: 6,
+    src: advancedJs,
+    alt: 'advancedJs',
+  },
+  {
+    id: 7,
+    src: react,
+    alt: 'react',
+  },
+];

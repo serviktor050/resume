@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
 import EducationCard from './ui/EducationCard';
+import Slider from './ui/Slider';
 import { HIGHER_EDUCATION, ADDITIONAL_EDUCATION } from './config/constants';
 
 import styles from './styles.module.css';
@@ -19,6 +20,7 @@ function EducationPage() {
         <div className={cx('sub-title')}>{t('education-page.sub-title.additional-education')}</div>
         <EducationCard education={ADDITIONAL_EDUCATION} />
         <div className={cx('sub-title')}>{t('education-page.sub-title.certificates')}</div>
+        <Slider />
       </div>
     </div>
   );

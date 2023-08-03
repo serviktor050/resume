@@ -14,7 +14,7 @@ function AboutPage() {
       <div className={cx('title')}>{t('about-page.title')}</div>
       <div className={cx('wrapper')}>
         <div className={cx('description')}>
-          <div className={cx('description__item', 'description__item__bold')}>{t('about-page.description-1')}</div>
+          <div className={cx('description__item', 'sub-title')}>{t('about-page.description-1')}</div>
           <div className={cx('description__item')}>{t('about-page.description-2')}</div>
           <div className={cx('description__item')}>{t('about-page.description-3')}</div>
         </div>
