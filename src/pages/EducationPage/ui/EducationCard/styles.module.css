@@ -46,6 +46,65 @@
     flex-direction: column;
     gap: 10px;
 }
+
 .education-card-info__sub-title {
     font-weight: 600;
+}
+
+@media all and (min-width: 320px) and (max-width: 576px) {
+    .education-card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        border-radius: 15px;
+        padding: 5px 10px;
+        color: #071A71;
+        font-size: 16px;
+        text-align: justify;
+        box-shadow: 7px 5px 5px #34c6cd;
+    }
+
+    .education-card-name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .education-card-sub-title {
+        font-weight: 600;
+    }
+
+    .education-card-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .education-card-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        float: right;
+        margin-left: 0;
+    }
+
+    .education-card-photo__img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .education-card-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .education-card-info__sub-title {
+        font-weight: 600;
+    }
+
+    .education-card-info__item {
+        font-size: 14px;
+    }
 }

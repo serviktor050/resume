@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 15%;
     min-height: 79.5vh;
     padding: 40px 50px;
     background: linear-gradient(90deg, #2D3C82, #01939A);
