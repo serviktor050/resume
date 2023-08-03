@@ -10,9 +10,9 @@ const cx = classNames.bind(styles);
 function Technologies() {
   const { t } = useTranslation();
   return (
-    <div className={cx('container')}>
-      <div className={cx('title')}>{t('about-page.technologies.title')}</div>
-      <div className={cx('wrapper')}>
+    <div className={cx('technologies')}>
+      <div className={cx('technologies-title')}>{t('about-page.technologies.title')}</div>
+      <div className={cx('technologies-wrapper')}>
         {TECHNOLOGIES.map((technology) => (
           <div className={cx('technology-item')} key={technology.id}>
             <div className={cx('technology-item__name')}>

@@ -14,8 +14,8 @@ function Header() {
   return (
     <div className={cx('header')}>
       <div className={cx('header-title')}>{t('header.title')}</div>
-      <Navigation />
       <ChangeLanguage />
+      <Navigation />
     </div>
   );
 }

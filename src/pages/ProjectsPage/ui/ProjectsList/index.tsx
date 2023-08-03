@@ -11,35 +11,45 @@ const cx = classNames.bind(styles);
 function ProjectsList() {
   const { t } = useTranslation();
   return (
-    <div className={cx('container')}>
-      <div className={cx('wrapper')}>
-        {PROJECTS.map((project) => (
-          <div className={cx('project-item')} key={project.id}>
+    <div className={cx('project-list-container')}>
+      <div className={cx('project-list-wrapper')}>
+        {PROJECTS.map(({
+          id,
+          name,
+          alt,
+          src,
+          description,
+          responsibility,
+          href,
+          stack,
+          period
+        }) => (
+          <div className={cx('project-item')} key={id}>
             <div className={cx('project-item-name')}>
-              {project.name}
+              {name}
             </div>
             <div className={cx('project-item-description')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.about-project')}
               </div>
               <div className={cx('project-item-photo')}>
-                <img className={cx('project-item-photo__img')} alt={project.alt} src={project.src} />
+                <img className={cx('project-item-photo__img')} alt={alt} src={src} />
               </div>
-              {useIsRussianLang() ? project.description.ru : project.description.en}
+              {useIsRussianLang() ? description.ru : description.en}
             </div>
             <div className={cx('project-item-what-did-i-do')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.responsibility')}
               </div>
-              {useIsRussianLang() ? project.responsibility.ru : project.responsibility.en}
+              {useIsRussianLang() ? responsibility.ru : responsibility.en}
             </div>
-            {project.href && (
+            {href && (
               <div className={cx('project-item-href')}>
                 <div className={cx('project-item-sub-title')}>
                   {t('projects-page.project-item.sub-title.link')}
                 </div>
-                <a href={project.href} target="_blank" rel="noreferrer">
-                  {project.href}
+                <a href={href} target="_blank" rel="noreferrer">
+                  {href}
                 </a>
               </div>
             )}
@@ -48,7 +58,7 @@ function ProjectsList() {
                 {t('projects-page.project-item.sub-title.stack')}
               </div>
               <div className={cx('project-item-stack-list')}>
-                {project.stack.map((item) => (
+                {stack.map((item) => (
                   <div className={cx('project-item-stack-list__item')} key={item.id}>
                     {item.name}
                   </div>
@@ -59,7 +69,7 @@ function ProjectsList() {
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.period')}
               </div>
-              {useIsRussianLang() ? project.period.ru : project.period.en}
+              {useIsRussianLang() ? period.ru : period.en}
             </div>
           </div>
         ))}

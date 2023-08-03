@@ -1,19 +1,19 @@
-.container {
+.technologies {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 25px;
 }
 
-.title {
+.technologies-title {
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 0;
     color: #071A71;
     font-size: 25px;
     font-weight: 600;
 }
 
-.wrapper {
+.technologies-wrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
