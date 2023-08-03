@@ -13,8 +13,12 @@ function Header() {
 
   return (
     <div className={cx('header')}>
-      <div className={cx('header-title')}>{t('header.title')}</div>
-      <ChangeLanguage />
+      <div className={cx('header-title')}>
+        <div className={cx('header-title__name')}>
+          {t('header.title')}
+        </div>
+        <ChangeLanguage />
+      </div>
       <Navigation />
     </div>
   );

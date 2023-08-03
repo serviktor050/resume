@@ -1,11 +1,17 @@
 .header {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 4fr;
+    grid-template-columns: 2fr 4fr;
     align-items: center;
     padding: 10px 25px;
 }
 
 .header-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header-title__name {
     font-size: 36px;
     font-weight: 600;
     color: #FFFFFF;
@@ -21,7 +27,14 @@
     }
 
     .header-title {
-        font-size: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-title__name {
+        font-size: 36px;
         font-weight: 600;
         color: #FFFFFF;
     }
