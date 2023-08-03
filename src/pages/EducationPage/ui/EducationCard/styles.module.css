@@ -51,7 +51,7 @@
     font-weight: 600;
 }
 
-@media all and (min-width: 320px) and (max-width: 576px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
     .education-card {
         display: flex;
         flex-direction: column;

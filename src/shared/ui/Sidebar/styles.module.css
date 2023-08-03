@@ -111,7 +111,7 @@
     background: #FFB473;
 }
 
-@media all and (min-width: 320px) and (max-width: 576px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
     .sidebar {
         display: flex;
         flex-direction: column;
