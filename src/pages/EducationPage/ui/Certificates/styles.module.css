@@ -10,7 +10,7 @@
 .slide {
     width: 30%;
     border-radius: 15px;
-    box-shadow: 7px 5px 5px #34c6cd;
+    box-shadow: 0 0 10px #cccccc;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
@@ -25,6 +25,6 @@
     .slide {
         width: 100%;
         border-radius: 15px;
-        box-shadow: 7px 5px 5px #34c6cd;
+        box-shadow: 0 0 10px #cccccc;
     }
 }

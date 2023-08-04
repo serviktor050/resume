@@ -13,7 +13,7 @@
 .sidebar-photo {
     width: 250px;
     height: 250px;
-    border: 1px solid #34C6CD;
+    box-shadow: 0 0 10px #cccccc;
     border-radius: 130px;
 }
 
@@ -51,7 +51,7 @@
     align-items: center;
     text-align: justify;
     background: #FFFFFF;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #071A71;
 }
 
@@ -63,7 +63,7 @@
     align-items: center;
     background: #FFFFFF;
     width: 70%;
-    border-radius: 5px;
+    border-radius: 15px;
     height: 50px;
 }
 
@@ -94,7 +94,8 @@
     align-items: center;
     width: 220px;
     padding: 15px 15px;
-    border-radius: 50px;
+    border-radius: 15px;
+    border: none;
     background: #FF9840;
     margin-top: auto;
     color: #FFFFFF;
@@ -104,7 +105,7 @@
 }
 
 .sidebar-send-btn:hover {
-    background: #FF7600;
+    box-shadow: 0 0 10px #FF9840;
 }
 
 .sidebar-send-btn:active {
@@ -126,7 +127,7 @@
     .sidebar-photo {
         width: 100px;
         height: 100px;
-        border: 1px solid #34C6CD;
+        box-shadow: 0 0 10px #cccccc;
         border-radius: 100px;
     }
 
@@ -165,7 +166,7 @@
         align-items: center;
         text-align: justify;
         background: #FFFFFF;
-        border-radius: 5px;
+        border-radius: 15px;
         color: #071A71;
     }
 
@@ -177,7 +178,7 @@
         align-items: center;
         background: #FFFFFF;
         width: 50%;
-        border-radius: 5px;
+        border-radius: 15px;
         height: 50px;
     }
 
@@ -208,7 +209,8 @@
         align-items: center;
         width: 220px;
         padding: 15px 15px;
-        border-radius: 50px;
+        border-radius: 15px;
+        border: none;
         background: #FF9840;
         margin-top: 0;
         color: #FFFFFF;
@@ -218,7 +220,7 @@
     }
 
     .sidebar-send-btn:hover {
-        background: #FF7600;
+        box-shadow: 0 0 10px #FF9840;
     }
 
     .sidebar-send-btn:active {

@@ -18,13 +18,14 @@
 }
 
 .navigation-item:hover {
-    border-radius: 5px;
-    box-shadow: 7px 5px 5px #FF9840;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #FF9840;
 }
 
 .navigation-item:active {
-    border-radius: 5px;
-    box-shadow: 7px 5px 5px #FF9840;
+    border-radius: 15px;
+    background-color: #FF9840;
+    box-shadow: none;
 }
 
 .navigation-item__active {
@@ -35,8 +36,8 @@
     height: 40px;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 7px 5px 5px #FF9840;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #FF9840;
 }
 
 .navigation-item__text {
@@ -48,7 +49,7 @@
 }
 
 .navigation-item:active .navigation-item__text {
-    color: #FF9840;
+    color: #FFFFFF;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
@@ -74,13 +75,14 @@
     }
 
     .navigation-item:hover {
-        border-radius: 5px;
-        box-shadow: 7px 5px 5px #FF9840;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #FF9840;
     }
 
     .navigation-item:active {
-        border-radius: 5px;
-        box-shadow: 7px 5px 5px #FF9840;
+        border-radius: 15px;
+        background-color: #FF9840;
+        box-shadow: none;
     }
 
     .navigation-item__active {
@@ -91,8 +93,8 @@
         height: 40px;
         text-decoration: none;
         cursor: pointer;
-        border-radius: 5px;
-        box-shadow: 7px 5px 5px #FF9840;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #FF9840;
     }
 
     .navigation-item__text {
@@ -103,6 +105,6 @@
     }
 
     .navigation-item:active .navigation-item__text {
-        color: #FF9840;
+        color: #FFFFFF;
     }
 }

@@ -42,14 +42,14 @@
 .technology-item__rate {
     width: 100%;
     height: 15px;
-    background: #34c6cd;
+    background: linear-gradient(0deg, #2D3C82, #01939A);
     border-radius: 10px;
 }
 
 .technology-item__rate__Junior {
     width: 25%;
     height: 15px;
-    background: linear-gradient(90deg, #ffd673, #ff7600);
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     border-radius: 10px;
     opacity: inherit;
 }
@@ -57,14 +57,14 @@
 .technology-item__rate__Middle {
     width: 50%;
     height: 15px;
-    background: linear-gradient(90deg, #ffd673, #ff7600);
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     border-radius: 10px;
 }
 
 .technology-item__rate__Advanced {
     width: 75%;
     height: 15px;
-    background: linear-gradient(90deg, #ffd673, #ff7600);
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     border-radius: 10px;
 }
 
@@ -113,14 +113,14 @@
     .technology-item__rate {
         width: 100%;
         height: 15px;
-        background: #34c6cd;
+        background: linear-gradient(0deg, #2D3C82, #01939A);
         border-radius: 10px;
     }
 
     .technology-item__rate__Junior {
         width: 25%;
         height: 15px;
-        background: linear-gradient(90deg, #ffd673, #ff7600);
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         border-radius: 10px;
         opacity: inherit;
     }
@@ -128,14 +128,14 @@
     .technology-item__rate__Middle {
         width: 50%;
         height: 15px;
-        background: linear-gradient(90deg, #ffd673, #ff7600);
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         border-radius: 10px;
     }
 
     .technology-item__rate__Advanced {
         width: 75%;
         height: 15px;
-        background: linear-gradient(90deg, #ffd673, #ff7600);
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         border-radius: 10px;
     }
 }

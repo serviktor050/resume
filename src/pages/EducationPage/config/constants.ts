@@ -83,13 +83,13 @@ export const ADDITIONAL_EDUCATION: IEducation = {
   },
 };
 
-type ISlider = {
+type ICertificate = {
   id: number,
   src: string,
   alt: string,
 }[];
 
-export const SLIDER: ISlider = [
+export const CERTIFICATES: ICertificate = [
   {
     id: 1,
     src: git,
