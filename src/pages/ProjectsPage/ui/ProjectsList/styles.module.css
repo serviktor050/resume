@@ -50,8 +50,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffb473;
-    min-width: 25%;
+    padding: 0 10px;
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     height: 30px;
     border-radius: 15px;
 }
@@ -110,9 +110,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffb473;
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         padding: 0 10px;
-        min-width: 25%;
         height: 30px;
         border-radius: 15px;
     }

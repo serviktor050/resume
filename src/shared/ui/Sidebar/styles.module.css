@@ -40,7 +40,7 @@
 .sidebar-title__profession {
     font-size: 16px;
     font-weight: 600;
-    color: #FF9840;
+    color: #ffd673;
     text-align: center;
 }
 
@@ -96,7 +96,7 @@
     padding: 15px 15px;
     border-radius: 15px;
     border: none;
-    background: #FF9840;
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     margin-top: auto;
     color: #FFFFFF;
     font-size: 16px;
@@ -105,11 +105,11 @@
 }
 
 .sidebar-send-btn:hover {
-    box-shadow: 0 0 10px #FF9840;
+    box-shadow: 0 0 10px #ffb473;
 }
 
 .sidebar-send-btn:active {
-    background: #FFB473;
+    background: #ffb473;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
@@ -154,7 +154,7 @@
     .sidebar-title__profession {
         font-size: 16px;
         font-weight: 600;
-        color: #FF9840;
+        color: #ffd673;
         text-align: center;
     }
 
@@ -211,7 +211,7 @@
         padding: 15px 15px;
         border-radius: 15px;
         border: none;
-        background: #FF9840;
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         margin-top: 0;
         color: #FFFFFF;
         font-size: 16px;
@@ -220,10 +220,10 @@
     }
 
     .sidebar-send-btn:hover {
-        box-shadow: 0 0 10px #FF9840;
+        box-shadow: 0 0 10px #ffb473;
     }
 
     .sidebar-send-btn:active {
-        background: #FFB473;
+        background: #ffb473;
     }
 }

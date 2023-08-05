@@ -24,7 +24,7 @@
 
 .navigation-item:active {
     border-radius: 15px;
-    background-color: #FF9840;
+    background: linear-gradient(0deg, #ffb473, #ffd673);
     box-shadow: none;
 }
 
@@ -81,7 +81,7 @@
 
     .navigation-item:active {
         border-radius: 15px;
-        background-color: #FF9840;
+        background: linear-gradient(0deg, #ffb473, #ffd673);
         box-shadow: none;
     }
 
