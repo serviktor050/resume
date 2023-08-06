@@ -68,6 +68,7 @@
     .education-card-name {
         font-size: 16px;
         font-weight: 600;
+        padding-left: 10px;
     }
 
     .education-card-sub-title {
@@ -78,6 +79,8 @@
         display: flex;
         flex-direction: row;
         gap: 10px;
+        width: 95%;
+        margin: 0 auto;
     }
 
     .education-card-photo {
@@ -85,7 +88,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 50%;
+        width: 40%;
         margin-left: 0;
     }
 
@@ -98,6 +101,7 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+        width: 60%;
     }
 
     .education-card-info__sub-title {
