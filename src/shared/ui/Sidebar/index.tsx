@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
-import { SOCIAL_LINKS } from '../../config/constants';
+import { SOCIAL_LINKS, EMAIL } from '../../config/constants';
 import mainImage from '../../../assets/img/png/main-image.png';
 
 import styles from './styles.module.css';
@@ -42,6 +42,7 @@ function Sidebar() {
       <button
         type="submit"
         className={cx('sidebar-send-btn')}
+        onClick={() => window.location.href = `mailto:${EMAIL}`}
       >
         {t('sidebar.send-email.btn')}
       </button>

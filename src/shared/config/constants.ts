@@ -27,3 +27,5 @@ export const SOCIAL_LINKS: {
     alt: 'facebook',
   },
 ];
+
+export const EMAIL: string = 'mr.s-gagulin@yandex.ru';
