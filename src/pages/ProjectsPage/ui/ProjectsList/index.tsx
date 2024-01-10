@@ -65,7 +65,7 @@ function ProjectsList() {
                 ))}
               </div>
             </div>
-            <div className={cx('project-item-stack')}>
+            <div className={cx('project-item-period')}>
               <div className={cx('project-item-sub-title')}>
                 {t('projects-page.project-item.sub-title.period')}
               </div>

@@ -6,14 +6,16 @@ import styles from './styles.module.css';
 
 const cx = classNames.bind(styles);
 
+interface NavigagationItemsType {
+  id: number,
+  href: string,
+  title: string,
+}
+
 function Navigation() {
   const { t } = useTranslation();
 
-  const navigationItems: {
-    id: number,
-    href: string,
-    title: string,
-  }[] = [
+  const navigationItems: NavigagationItemsType[] = [
     {
       id: 1,
       href: '/',
@@ -28,6 +30,11 @@ function Navigation() {
       id: 3,
       href: 'projects',
       title: t('navigation-items.projects'),
+    },
+    {
+      id: 4,
+      href: 'companies',
+      title: t('navigation-items.companies'),
     },
   ];
 

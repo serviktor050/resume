@@ -3,6 +3,7 @@
   "navigation-items.about" : "обо мне",
   "navigation-items.education" : "образование",
   "navigation-items.projects" : "проекты",
+  "navigation-items.companies": "компании",
   "sidebar.title": "Сергей Гагулин",
   "sidebar.profession": "Фронтенд разработчик на React",
   "sidebar.description": "Разработка и создание гибких, масштабируемых и интуитивно понятных пользовательских интерфейсов на библиотеке React",
@@ -26,5 +27,10 @@
   "education-page.card.sub-title.description": "Описание",
   "education-page.card.sub-title.faculty": "Факультет",
   "education-page.card.sub-title.period": "Период",
-  "education-page.card.sub-title.speciality": "Специальность"
+  "education-page.card.sub-title.speciality": "Специальность",
+  "companies-page.title": "Компании",
+  "companies-page.description-1": "Здесь вы можете ознакомиться с компаниями, в которых я работал, а также мое актуальное место работы.",
+  "companies-page.company-item.sub-title.about-company": "О компании",
+  "companies-page.company-item.sub-title.link": "Ссылка на сайт",
+  "companies-page.company-item.sub-title.period": "Период работы"
 }

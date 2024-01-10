@@ -3,6 +3,7 @@
   "navigation-items.about" : "about",
   "navigation-items.education" : "education",
   "navigation-items.projects" : "projects",
+  "navigation-items.companies": "companies",
   "sidebar.title": "Sergei Gagulin",
   "sidebar.profession": "Frontend developer on React",
   "sidebar.description": "Development and creation of flexible, scalable and intuitive user interfaces based on the React",
@@ -26,5 +27,10 @@
   "education-page.card.sub-title.description": "Description",
   "education-page.card.sub-title.faculty": "Faculty",
   "education-page.card.sub-title.period": "Period",
-  "education-page.card.sub-title.speciality": "Speciality"
+  "education-page.card.sub-title.speciality": "Speciality",
+  "companies-page.title": "Companies",
+  "companies-page.description-1": "Here you can find out about the companies where I worked, as well as my current place of work.",
+  "companies-page.company-item.sub-title.about-company": "About the company",
+  "companies-page.company-item.sub-title.link": "Link to the website",
+  "companies-page.company-item.sub-title.period": "The period of work"
 }

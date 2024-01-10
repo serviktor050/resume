@@ -2,30 +2,9 @@ import antiageClinic from '../../../assets/img/png/antiage-clinic.png';
 import unknowCover from '../../../assets/img/png/unknow-cover.png';
 import kler from '../../../assets/img/png/kler.png';
 import travelClass from '../../../assets/img/png/travel-class.png';
+import { IProject } from '../../../shared/config/interfaces';
 
-export const PROJECTS: {
-  id: number,
-  name: string,
-  description: {
-    ru: string,
-    en: string,
-  },
-  responsibility: {
-    ru: string,
-    en: string,
-  },
-  href: string,
-  src: string,
-  alt: string,
-  stack: {
-    id: number,
-    name: string,
-  }[],
-  period: {
-    ru: string,
-    en: string,
-  },
-}[] = [
+export const PROJECTS: IProject[] = [
   {
     id: 1,
     name: 'AntiAge Clinic',
@@ -112,8 +91,8 @@ export const PROJECTS: {
       },
     ],
     period: {
-      ru: 'с 12.2021',
-      en: 'from 2021.12',
+      ru: 'с 12.2021 по 12.2023',
+      en: 'from 2021.12 to 2023.12',
     },
   },
   {
