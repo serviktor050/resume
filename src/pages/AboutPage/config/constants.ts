@@ -23,7 +23,7 @@ export const TECHNOLOGIES: technologiesType[] = [
   {
     id: 4,
     name: 'TypeScript',
-    rate: 'Junior',
+    rate: 'Middle',
   },
   {
     id: 5,

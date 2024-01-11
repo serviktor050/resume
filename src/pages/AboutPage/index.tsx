@@ -25,6 +25,7 @@ function AboutPage() {
             </div>
           </div>
           <div className={cx('description__item')}>{t('about-page.description-3')}</div>
+          <div className={cx('description__item')}>{t('about-page.description-4')}</div>
         </div>
         <Technologies />
       </div>
