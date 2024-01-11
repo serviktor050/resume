@@ -9,6 +9,7 @@ const cx = classNames.bind(styles);
 
 function Technologies() {
   const { t } = useTranslation();
+
   return (
     <div className={cx('technologies')}>
       <div className={cx('technologies-title')}>{t('about-page.technologies.title')}</div>

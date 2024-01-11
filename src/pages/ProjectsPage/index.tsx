@@ -1,14 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
+import ProjectsList from './ui/ProjectsList';
 
 import styles from './styles.module.css';
-import ProjectsList from './ui/ProjectsList';
 
 const cx = classNames.bind(styles);
 
 function ProjectsPage() {
   const { t } = useTranslation();
+
   return (
     <div className={cx('container')}>
       <div className={cx('title')}>{t('projects-page.title')}</div>

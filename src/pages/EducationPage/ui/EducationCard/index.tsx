@@ -2,17 +2,17 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import { useTranslation } from 'react-i18next';
 import useIsRussianLang from '../../../../shared/lib/useIsRussianLang';
-import { IEducation } from '../../config/constants';
+import { IEducation } from '../../config/intefaces';
 
 import styles from './styles.module.css';
 
 const cx = classNames.bind(styles);
 
-interface EducationCardProps {
+type educationCardProps = {
   education: IEducation
 }
 
-function EducationCard({ education }: EducationCardProps) {
+function EducationCard({ education }: educationCardProps) {
   const { t } = useTranslation();
   const { src, alt, name, description, faculty, period, speciality } = education;
 
@@ -55,5 +55,4 @@ function EducationCard({ education }: EducationCardProps) {
     </div>
   );
 }
-
 export default EducationCard;

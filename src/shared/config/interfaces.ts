@@ -1,39 +1,12 @@
-export interface IProject {
+export interface INavigagationItem {
   id: number,
-    name: string,
-  description: {
-  ru: string,
-    en: string,
-  },
-  responsibility: {
-    ru: string,
-      en: string,
-  },
   href: string,
-    src: string,
-  alt: string,
-  stack: {
-  id: number,
-    name: string,
-  }[],
-  period: {
-  ru: string,
-    en: string,
-  },
+  title: string,
 }
 
-export interface ICompany {
+export interface ISocialLink{
   id: number,
-  name: string,
-  description: {
-    ru: string,
-    en: string,
-  },
   href: string,
   src: string,
   alt: string,
-  period: {
-    ru: string,
-    en: string,
-  },
 }

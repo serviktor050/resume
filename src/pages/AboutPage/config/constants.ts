@@ -1,8 +1,10 @@
-export const TECHNOLOGIES: {
+type technologiesType = {
   id: number,
   name: string,
   rate: string,
-}[] = [
+}
+
+export const TECHNOLOGIES: technologiesType[] = [
   {
     id: 1,
     name: 'Html5 & CSS3',

@@ -2,7 +2,7 @@ import antiageClinic from '../../../assets/img/png/antiage-clinic.png';
 import unknowCover from '../../../assets/img/png/unknow-cover.png';
 import kler from '../../../assets/img/png/kler.png';
 import travelClass from '../../../assets/img/png/travel-class.png';
-import { IProject } from '../../../shared/config/interfaces';
+import { IProject } from '../config/interfaces';
 
 export const PROJECTS: IProject[] = [
   {

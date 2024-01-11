@@ -2,20 +2,16 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
+import { INavigagationItem } from '../../config/interfaces';
+
 import styles from './styles.module.css';
 
 const cx = classNames.bind(styles);
 
-interface NavigagationItemsType {
-  id: number,
-  href: string,
-  title: string,
-}
-
 function Navigation() {
   const { t } = useTranslation();
 
-  const navigationItems: NavigagationItemsType[] = [
+  const navigationItems: INavigagationItem[] = [
     {
       id: 1,
       href: '/',
@@ -54,5 +50,4 @@ function Navigation() {
     </div>
   );
 }
-
 export default Navigation;

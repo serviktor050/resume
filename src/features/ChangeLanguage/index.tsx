@@ -8,13 +8,15 @@ import styles from './styles.module.css';
 
 const cx = classNames.bind(styles);
 
+type languageType = {
+  name: string,
+  flag: string,
+}
+
 function ChangeLanguage() {
   const { i18n } = useTranslation();
 
-  const languages: {
-    name: string,
-    flag: string,
-  }[] = [
+  const languages: languageType[] = [
     {
       name: 'ru',
       flag: russianFlag,
@@ -45,5 +47,4 @@ function ChangeLanguage() {
     </div>
   );
 }
-
 export default ChangeLanguage;

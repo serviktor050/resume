@@ -7,31 +7,7 @@ import basedJs from '../../../assets/img/png/based-js.png';
 import basedJsInBrowser from '../../../assets/img/png/based-js-in-browser.png';
 import advancedJs from '../../../assets/img/png/advanced-js.png';
 import react from '../../../assets/img/png/react.png';
-
-export interface IEducation {
-  src: string,
-  alt: string,
-  name: {
-    ru: string,
-    en: string,
-  },
-  description: {
-    ru: string,
-    en: string,
-  },
-  faculty: {
-    ru: string,
-    en: string,
-  },
-  period: {
-    ru: string,
-    en: string,
-  },
-  speciality: {
-    ru: string,
-    en: string,
-  },
-}
+import { ICertificate, IEducation } from './intefaces';
 
 export const HIGHER_EDUCATION: IEducation = {
   src: tstu,
@@ -83,13 +59,7 @@ export const ADDITIONAL_EDUCATION: IEducation = {
   },
 };
 
-type ICertificate = {
-  id: number,
-  src: string,
-  alt: string,
-}[];
-
-export const CERTIFICATES: ICertificate = [
+export const CERTIFICATES: ICertificate[] = [
   {
     id: 1,
     src: git,

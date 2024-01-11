@@ -11,6 +11,7 @@ const cx = classNames.bind(styles);
 
 function EducationPage() {
   const { t } = useTranslation();
+
   return (
     <div className={cx('container')}>
       <div className={cx('title')}>{t('education-page.title')}</div>

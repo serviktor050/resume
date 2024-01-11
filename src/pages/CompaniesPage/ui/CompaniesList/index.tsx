@@ -10,6 +10,7 @@ const cx = classNames.bind(styles);
 
 function CompaniesList() {
   const { t } = useTranslation();
+
   return(
     <div className={cx('company-list-container')}>
       <div className={cx('company-list-wrapper')}>
@@ -36,7 +37,7 @@ function CompaniesList() {
               {useIsRussianLang() ? description.ru : description.en}
             </div>
             <div className={cx('company-item-href')}>
-              <div className={cx('project-item-sub-title')}>
+              <div className={cx('company-item-sub-title')}>
                 {t('companies-page.company-item.sub-title.link')}
               </div>
               <a href={href} target="_blank" rel="noreferrer">
@@ -44,7 +45,7 @@ function CompaniesList() {
               </a>
             </div>
             <div className={cx('company-item-period')}>
-              <div className={cx('project-item-sub-title')}>
+              <div className={cx('company-item-sub-title')}>
                 {t('companies-page.company-item.sub-title.period')}
               </div>
               {useIsRussianLang() ? period.ru : period.en}
@@ -52,9 +53,7 @@ function CompaniesList() {
           </div>
         ) )}
       </div>
-
     </div>
   );
 }
-
 export default CompaniesList;

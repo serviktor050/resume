@@ -9,11 +9,10 @@ const cx = classNames.bind(styles);
 function Certificates() {
   return(
     <div className={cx('slider')}>
-      {CERTIFICATES.map((slide) => (
-        <img src={slide.src} alt={slide.alt} key={slide.id} className={cx('slide')} />
+      {CERTIFICATES.map(({ src,alt, id  }) => (
+        <img src={src} alt={alt} key={id} className={cx('slide')} />
       ))}
     </div>
   );
 }
-
 export default Certificates;

@@ -1,15 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
+import { CompaniesList } from './ui';
 
 import styles from './styles.module.css';
-import { CompaniesList } from './ui';
 
 const cx = classNames.bind(styles);
 
-
 function CompaniesPage() {
   const { t } = useTranslation();
+
   return(
     <div className={cx('container')}>
       <div className={cx('title')}>{t('companies-page.title')}</div>
@@ -22,5 +22,4 @@ function CompaniesPage() {
     </div>
   );
 }
-
 export default CompaniesPage;
