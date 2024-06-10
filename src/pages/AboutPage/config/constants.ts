@@ -58,6 +58,6 @@ export const TECHNOLOGIES: technologiesType[] = [
   {
     id: 11,
     name: 'ООП',
-    rate: 'Junior',
+    rate: 'Middle',
   },
 ];
