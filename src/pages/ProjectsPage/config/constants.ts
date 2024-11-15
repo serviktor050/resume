@@ -3,10 +3,12 @@ import travelClass from '../../../assets/img/png/travel-class.png';
 import kler from '../../../assets/img/png/kler.png';
 import antiageClinic from '../../../assets/img/png/antiage-clinic.png';
 import lombardL1 from '../../../assets/img/png/lombard-l1.png';
+import pss from  '../../../assets/img/png/pss.png';
+import avtodor from '../../../assets/img/png/avtodor.png';
 
 import { IProject } from './interfaces';
 
-export const PROJECTS: IProject[] = [
+const PROJECTS: IProject[] = [
   {
     id: 1,
     name: 'Рестомаркет Студенец / Кофейня Habit',
@@ -355,4 +357,64 @@ export const PROJECTS: IProject[] = [
       en: 'from 2021.01 to 2023.02',
     },
   },
+  {
+    id: 7,
+    name: 'Платформа строительных сервисов (Outstaff)',
+    description: {
+      ru: 'Платформа строительных сервисов — системное решение для оперативного управления строительными проектами.',
+      en: 'The construction services platform is a system solution for operational management of construction projects.',
+    },
+    responsibility: {
+      ru: 'Доработка существующего функционала платформы. Реализация новых фичей согласно техническому заданию заказчика.',
+      en: 'Improvement of the existing functionality of the platform.' +
+        'Implementation of new features according to the customer terms of reference.',
+    },
+    href: 'https://csp24.ru/',
+    src: pss,
+    alt: 'Construction services platform',
+    stack: [
+      {
+        id: 1,
+        name: 'React 17.0.2',
+      },
+    ],
+    period: {
+      ru: 'с 02.2024 по 03.2024',
+      en: 'from 2021.02 to 2023.03',
+    },
+  },
+  {
+    id: 8,
+    name: 'Автодор (Outstaff)',
+    description: {
+      ru: 'ООО «Автодор – Платные Дороги» входит в группу компаний «Автодор».' +
+        'Компания была создана в 2014 году с целью ведения операторской деятельности по' +
+        'взиманию денежных средств на платных участках автодорог,' +
+        'распространению транспондеров T-pass и внедрения удобных клиентских сервисов.',
+      en: 'Avtodor – Toll Roads LLC is a member of the Avtodor group of companies.' +
+        'The company was established in 2014 with the aim of conducting operator activities' +
+        'for the collection of funds on toll sections of highways,' +
+        'the distribution of T-pass transponders and the introduction of convenient customer services.',
+    },
+    responsibility: {
+      ru: 'Доработка существующего функционала портала. Реализация новых фичей согласно техническому заданию заказчика.',
+      en: 'Improvement of the existing functionality of the portal.' +
+        'Implementation of new features according to the customer terms of reference.',
+    },
+    href: 'https://avtodor-tr.ru/',
+    src: avtodor,
+    alt: 'Avtodor',
+    stack: [
+      {
+        id: 1,
+        name: 'React 17.2.0',
+      },
+    ],
+    period: {
+      ru: 'с 03.2024 по 04.2024',
+      en: 'from 2021.03 to 2023.04',
+    },
+  },
 ];
+
+export default PROJECTS.reverse();
