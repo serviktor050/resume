@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import { COMPANIES } from '../../config/constants';
+import COMPANIES from '../../config/constants';
 import { useTranslation } from 'react-i18next';
 import useIsRussianLang from '../../../../shared/lib/useIsRussianLang';
 
