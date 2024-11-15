@@ -5,6 +5,9 @@ import antiageClinic from '../../../assets/img/png/antiage-clinic.png';
 import lombardL1 from '../../../assets/img/png/lombard-l1.png';
 import pss from  '../../../assets/img/png/pss.png';
 import avtodor from '../../../assets/img/png/avtodor.png';
+import yourservice from '../../../assets/img/png/yourservice.png';
+import rafarma from '../../../assets/img/png/rafarma.png';
+import serviceme from '../../../assets/img/png/serviceme.png';
 
 import { IProject } from './interfaces';
 
@@ -366,7 +369,7 @@ const PROJECTS: IProject[] = [
     },
     responsibility: {
       ru: 'Доработка существующего функционала платформы. Реализация новых фичей согласно техническому заданию заказчика.',
-      en: 'Improvement of the existing functionality of the platform.' +
+      en: 'Improvement of the existing functionality of the platform. ' +
         'Implementation of new features according to the customer terms of reference.',
     },
     href: 'https://csp24.ru/',
@@ -387,18 +390,18 @@ const PROJECTS: IProject[] = [
     id: 8,
     name: 'Автодор (Outstaff)',
     description: {
-      ru: 'ООО «Автодор – Платные Дороги» входит в группу компаний «Автодор».' +
-        'Компания была создана в 2014 году с целью ведения операторской деятельности по' +
-        'взиманию денежных средств на платных участках автодорог,' +
+      ru: 'ООО «Автодор – Платные Дороги» входит в группу компаний «Автодор». ' +
+        'Компания была создана в 2014 году с целью ведения операторской деятельности по ' +
+        'взиманию денежных средств на платных участках автодорог, ' +
         'распространению транспондеров T-pass и внедрения удобных клиентских сервисов.',
-      en: 'Avtodor – Toll Roads LLC is a member of the Avtodor group of companies.' +
-        'The company was established in 2014 with the aim of conducting operator activities' +
-        'for the collection of funds on toll sections of highways,' +
+      en: 'Avtodor – Toll Roads LLC is a member of the Avtodor group of companies. ' +
+        'The company was established in 2014 with the aim of conducting operator activities ' +
+        'for the collection of funds on toll sections of highways, ' +
         'the distribution of T-pass transponders and the introduction of convenient customer services.',
     },
     responsibility: {
       ru: 'Доработка существующего функционала портала. Реализация новых фичей согласно техническому заданию заказчика.',
-      en: 'Improvement of the existing functionality of the portal.' +
+      en: 'Improvement of the existing functionality of the portal. ' +
         'Implementation of new features according to the customer terms of reference.',
     },
     href: 'https://avtodor-tr.ru/',
@@ -413,6 +416,209 @@ const PROJECTS: IProject[] = [
     period: {
       ru: 'с 03.2024 по 04.2024',
       en: 'from 2021.03 to 2023.04',
+    },
+  },
+  {
+    id: 9,
+    name: '@Your Service (International Project)',
+    description: {
+      ru: 'YourService — сайт сервиса для поиска специалистов в Западной Европе',
+      en: 'YourService is a service website for finding specialists in Western Europe',
+    },
+    responsibility: {
+      ru: 'Разработка web-приложения с нуля. Выбор и реализация структуры проекта. ' +
+        'Реализация фичи по оформлению заказа пользователем. Интеграция с google-maps. ' +
+        'Реализация многоязычности в интерфейсе приложения.',
+      en: 'Developing a web application from scratch. Selection and implementation of the project structure. ' +
+        'Implementation of the feature for placing an order by the user. Integration with Google maps. ' +
+        'Implementation of multilingualism in the application interface.',
+    },
+    href: 'https://atyourservice.lu/',
+    src: yourservice,
+    alt: '@Your Service',
+    stack: [
+      {
+        id: 1,
+        name: 'React 18.2.0',
+      },
+      {
+        id: 2,
+        name: 'React router dom',
+      },
+      {
+        id: 3,
+        name: 'React hook form',
+      },
+      {
+        id: 4,
+        name: 'React i18next',
+      },
+      {
+        id: 5,
+        name: 'React Query',
+      },
+      {
+        id: 6,
+        name: 'Luxon',
+      },
+      {
+        id: 7,
+        name: 'TypeScript',
+      },
+      {
+        id: 8,
+        name: 'Material UI',
+      },
+      {
+        id: 9,
+        name: 'Axios',
+      },
+      {
+        id: 10,
+        name: 'Classnames',
+      },
+      {
+        id: 11,
+        name: 'Eslint',
+      },
+      {
+        id: 12,
+        name: 'Google-maps react',
+      },
+    ],
+    period: {
+      ru: 'с 04.2024 по 06.2024',
+      en: 'from 2021.04 to 2023.06',
+    },
+  },
+  {
+    id: 10,
+    name: 'Rafarma',
+    description: {
+      ru: 'АО «Рафарма» - научно-производственный фармацевтический комплекс ' +
+        'по производству лекарственных препаратов в соответствии со стандартом GMP.',
+      en: 'Rafarma is a scientific and production pharmaceutical complex for the production ' +
+        'of medicines in accordance with the GMP standard.',
+    },
+    responsibility: {
+      ru: 'Старший фронтенд разработчик. Разработка web-приложения с нуля. Выбор и реализация структуры. ' +
+        'Функционал реализованного приложения позволяет через канал websocket получать данные онлайн с ' +
+        'подключенных весов к рабочему месту оператора. В интерфейсе реализованы возможности ' +
+        'рецептурного взвешивания и простого взвешивания, выбор весов, проведение калибровки и тарирования оборудования.',
+      en: 'Senior frontend developer. Developing a web application from scratch. ' +
+        'The choice and implementation of the structure. ' +
+        'The functionality of the implemented application allows you to receive data online from the connected scales ' +
+        'to the operator workplace through the websocket channel. The interface implements the capabilities of ' +
+        'prescription weighing and simple weighing, selection of scales, calibration and calibration of equipment.',
+    },
+    href: 'https://rafarma.ru/',
+    src: rafarma,
+    alt: 'Rafarma',
+    stack: [
+      {
+        id: 1,
+        name: 'React 18.2.0',
+      },
+      {
+        id: 2,
+        name: 'React router dom',
+      },
+      {
+        id: 3,
+        name: 'React hook form',
+      },
+      {
+        id: 4,
+        name: 'Redux tool kit',
+      },
+      {
+        id: 5,
+        name: 'RTK Query',
+      },
+      {
+        id: 6,
+        name: 'Luxon',
+      },
+      {
+        id: 7,
+        name: 'TypeScript',
+      },
+      {
+        id: 8,
+        name: 'Eslint',
+      },
+      {
+        id: 9,
+        name: 'Classnames',
+      },
+    ],
+    period: {
+      ru: 'с 06.2024 по 09.2024',
+      en: 'from 2021.06 to 2023.09',
+    },
+  },
+  {
+    id: 11,
+    name: 'Service Me',
+    description: {
+      ru: 'Service Me - приложение для записи автомобиля на сервис.',
+      en: 'Service Me is an application for recording a car for service.',
+    },
+    responsibility: {
+      ru: 'Старший фронтенд разработчик. Разработка web-приложения с нуля. Выбор и реализация структуры. ' +
+        'Адаптивная верстка (mobile first). Функционал реализованного приложения позволяет добавить автомобиль ' +
+        'в гараж как по vin и госномеру так и вручную, внести данные об автомобиле. Записаться на выбранную услугу. ' +
+        'В приложение интегрированы Яндекс карты.',
+      en: 'Senior frontend developer. Developing a web application from scratch. ' +
+        'The choice and implementation of the structure. Adaptive layout (mobile first). ' +
+        'The functionality of the implemented application allows you to add a car to the garage both ' +
+        'by vin and license plate number and manually enter data about the car. Sign up for the selected service. ' +
+        'Yandex Maps are integrated into the application.',
+    },
+    href: 'https://serviceme.pro/',
+    src: serviceme,
+    alt: 'ServiceMe',
+    stack: [
+      {
+        id: 1,
+        name: 'React 18.2.0',
+      },
+      {
+        id: 2,
+        name: 'React router dom',
+      },
+      {
+        id: 3,
+        name: 'React hook form',
+      },
+      {
+        id: 4,
+        name: 'Redux tool kit',
+      },
+      {
+        id: 5,
+        name: 'RTK Query',
+      },
+      {
+        id: 7,
+        name: 'TypeScript',
+      },
+      {
+        id: 8,
+        name: 'Eslint',
+      },
+      {
+        id: 9,
+        name: 'Classnames',
+      },
+      {
+        id: 10,
+        name: 'React yandex-maps',
+      },
+    ],
+    period: {
+      ru: 'с 09.2024 по 11.2024',
+      en: 'from 2021.09 to 2023.11',
     },
   },
 ];
