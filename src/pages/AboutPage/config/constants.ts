@@ -17,13 +17,13 @@ export const TECHNOLOGIES: technologiesType[] = [
   },
   {
     id: 3,
-    name: 'Git & Git Flow',
-    rate: 'Advanced',
+    name: 'TypeScript',
+    rate: 'Middle',
   },
   {
     id: 4,
-    name: 'TypeScript',
-    rate: 'Middle',
+    name: 'Git & Git Flow',
+    rate: 'Advanced',
   },
   {
     id: 5,
@@ -37,27 +37,27 @@ export const TECHNOLOGIES: technologiesType[] = [
   },
   {
     id: 7,
-    name: 'Redux (Thunk, Observable, Saga)',
-    rate: 'Middle',
-  },
-  {
-    id: 8,
     name: 'React Hook Form',
     rate: 'Middle',
   },
   {
+    id: 8,
+    name: 'Redux',
+    rate: 'Middle',
+  },
+  {
     id: 9,
-    name: 'Jest',
+    name: 'Redux Toolkit',
     rate: 'Middle',
   },
   {
     id: 10,
-    name: 'Architecture FSD',
-    rate: 'Advanced',
+    name: 'Jest',
+    rate: 'Middle',
   },
   {
     id: 11,
-    name: 'ООП',
-    rate: 'Middle',
+    name: 'Architecture FSD',
+    rate: 'Advanced',
   },
 ];

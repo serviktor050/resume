@@ -422,8 +422,8 @@ const PROJECTS: IProject[] = [
     id: 9,
     name: '@Your Service (International Project)',
     description: {
-      ru: 'YourService — сайт сервиса для поиска специалистов в Западной Европе',
-      en: 'YourService is a service website for finding specialists in Western Europe',
+      ru: 'YourService — сайт сервиса для поиска специалистов в Западной Европе.',
+      en: 'YourService is a service website for finding specialists in Western Europe.',
     },
     responsibility: {
       ru: 'Разработка web-приложения с нуля. Выбор и реализация структуры проекта. ' +
