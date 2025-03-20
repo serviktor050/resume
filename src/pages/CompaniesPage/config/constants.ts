@@ -51,8 +51,8 @@ const COMPANIES: ICompany[] = [
     src: spider,
     alt: 'Spider Group',
     period: {
-      ru: 'с 12.2023',
-      en: 'from 2023.12',
+      ru: 'с 12.2023 по 03.2025',
+      en: 'from 2023.12 to 2025.03',
     },
   },
 ];

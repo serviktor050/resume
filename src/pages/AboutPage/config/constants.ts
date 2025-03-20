@@ -1,8 +1,4 @@
-interface ITechnologies {
-  id: number,
-  name: string,
-  rate: string,
-}
+import { ITechnologies } from './interfaces';
 
 export const TECHNOLOGIES: ITechnologies[] = [
   {
