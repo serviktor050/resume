@@ -1,63 +1,78 @@
-type technologiesType = {
+interface ITechnologies {
   id: number,
   name: string,
   rate: string,
 }
 
-export const TECHNOLOGIES: technologiesType[] = [
+export const TECHNOLOGIES: ITechnologies[] = [
   {
     id: 1,
-    name: 'Html5 & CSS3',
+    name: 'Html5 & (CSS3 || SCSS)',
     rate: 'Advanced',
   },
   {
     id: 2,
-    name: 'JavaScript (ES6)',
+    name: 'JavaScript (ES6) & TypeScript',
     rate: 'Advanced',
   },
   {
     id: 3,
-    name: 'TypeScript',
-    rate: 'Middle',
-  },
-  {
-    id: 4,
     name: 'Git & Git Flow',
     rate: 'Advanced',
   },
   {
-    id: 5,
+    id: 4,
     name: 'React',
     rate: 'Advanced',
   },
   {
+    id: 5,
+    name: 'React Hook Form',
+    rate: 'Advanced',
+  },
+  {
     id: 6,
-    name: 'React Query',
+    name: 'Redux',
     rate: 'Advanced',
   },
   {
     id: 7,
-    name: 'React Hook Form',
-    rate: 'Middle',
+    name: 'Redux Toolkit',
+    rate: 'Advanced',
   },
   {
     id: 8,
-    name: 'Redux',
-    rate: 'Middle',
+    name: 'React Query || RTK Query',
+    rate: 'Advanced',
   },
   {
     id: 9,
-    name: 'Redux Toolkit',
-    rate: 'Middle',
+    name: 'REST && WebSockets',
+    rate: 'Advanced',
   },
   {
     id: 10,
-    name: 'Jest',
-    rate: 'Middle',
+    name: 'Jest && React Testing Library',
+    rate: 'Advanced',
   },
   {
     id: 11,
     name: 'Architecture FSD',
+    rate: 'Advanced',
+  },
+  {
+    id: 12,
+    name: 'Ant Design || Material-UI',
+    rate: 'Advanced',
+  },
+  {
+    id: 13,
+    name: 'SOLID, DRY, KISS, YAGNI',
+    rate: 'Advanced',
+  },
+  {
+    id: 14,
+    name: 'Agile && Scrum',
     rate: 'Advanced',
   },
 ];
