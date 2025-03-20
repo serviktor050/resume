@@ -8,6 +8,7 @@ import avtodor from '../../../assets/img/png/avtodor.png';
 import yourservice from '../../../assets/img/png/yourservice.png';
 import rafarma from '../../../assets/img/png/rafarma.png';
 import serviceme from '../../../assets/img/png/serviceme.png';
+import wandwork from '../../../assets/img/png/wandwork.png';
 
 import { IProject } from './interfaces';
 
@@ -357,7 +358,7 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 01.2024 по 02.2024',
-      en: 'from 2021.01 to 2023.02',
+      en: 'from 2024.01 to 2024.02',
     },
   },
   {
@@ -383,7 +384,7 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 02.2024 по 03.2024',
-      en: 'from 2021.02 to 2023.03',
+      en: 'from 2024.02 to 2024.03',
     },
   },
   {
@@ -415,7 +416,7 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 03.2024 по 04.2024',
-      en: 'from 2021.03 to 2023.04',
+      en: 'from 2024.03 to 2024.04',
     },
   },
   {
@@ -488,7 +489,7 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 04.2024 по 06.2024',
-      en: 'from 2021.04 to 2023.06',
+      en: 'from 2024.04 to 2024.06',
     },
   },
   {
@@ -554,7 +555,7 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 06.2024 по 09.2024',
-      en: 'from 2021.06 to 2023.09',
+      en: 'from 2024.06 to 2024.09',
     },
   },
   {
@@ -618,7 +619,60 @@ const PROJECTS: IProject[] = [
     ],
     period: {
       ru: 'с 09.2024 по 11.2024',
-      en: 'from 2021.09 to 2023.11',
+      en: 'from 2024.09 to 2024.11',
+    },
+  },
+  {
+    id: 12,
+    name: 'WandWork',
+    description: {
+      ru: 'WandWork - приложение-социальная сеть для заказчиков и фрилансеров.',
+      en: 'WandWork is a social network application for clients and freelancers.',
+    },
+    responsibility: {
+      ru: 'Фронтенд разработчик в команде разработки. Разработка функционала мессенджера. ' +
+        'Адаптивная верстка (desktop first). Функционал поддерживает личные и групповые чаты, чат поддержки ' +
+        'и уведомлений. Реализовано с помощью технологии WebSocket.',
+      en: 'A frontend developer in the development team. Messenger functionality development. ' +
+        'Adaptive layout (desktop first). The functionality supports personal and group chats, support chat ' +
+        'and notifications. Implemented using WebSocket technology.',
+    },
+    href: 'https://serviceme.pro/',
+    src: wandwork,
+    alt: 'WandWork',
+    stack: [
+      {
+        id: 1,
+        name: 'React 18.2.0',
+      },
+      {
+        id: 2,
+        name: 'React router dom',
+      },
+      {
+        id: 3,
+        name: 'Redux tool kit',
+      },
+      {
+        id: 4,
+        name: 'RTK Query',
+      },
+      {
+        id: 5,
+        name: 'TypeScript',
+      },
+      {
+        id: 6,
+        name: 'Eslint',
+      },
+      {
+        id: 7,
+        name: 'Classnames',
+      },
+    ],
+    period: {
+      ru: 'с 11.2024 по 03.2025',
+      en: 'from 2024.11 to 2025.03',
     },
   },
 ];
