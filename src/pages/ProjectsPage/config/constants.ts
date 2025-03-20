@@ -637,7 +637,7 @@ const PROJECTS: IProject[] = [
         'Adaptive layout (desktop first). The functionality supports personal and group chats, support chat ' +
         'and notifications. Implemented using WebSocket technology.',
     },
-    href: 'https://serviceme.pro/',
+    href: '',
     src: wandwork,
     alt: 'WandWork',
     stack: [
